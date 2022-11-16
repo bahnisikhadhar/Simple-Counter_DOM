@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: rgb(112, 184, 112);
+}
+.container {
+    max-width: 50%;
+    height: 30rem;
+    margin: 8rem auto;
+    border: 2px solid rgb(209, 67, 91);
+    text-align: center;
+    padding-top: 9rem;
+    background-color: lightpink;
+    color: rgb(209, 67, 91);
+    border-radius: 15px;
+
+}
+.container h1 {
+    font-size: 2.5rem;
+}
+.container .btn {
+    padding: 1.3rem 2rem;
+    margin: 1rem;
+    background-color: rgb(206, 85, 105);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container .btn:hover {
+    background-color:rgb(209, 67, 91) ;
+}
+.container .btn:active {
+    background-color: rgb(197, 99, 114);
+}
