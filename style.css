@@ -27,7 +27,7 @@ body {
 }
 .container .btn {
     padding: 1.3rem 2rem;
-    margin-right: 1rem;
+    margin: 1rem;
     background-color: rgb(206, 85, 105);
     border: none;
     border-radius: 10px;
@@ -40,4 +40,10 @@ body {
 }
 .container .btn:active {
     background-color: rgb(197, 99, 114);
+}
+@media (max-width: 700px)
+{
+    .container {
+        max-width: 90%;
+    }
 }
