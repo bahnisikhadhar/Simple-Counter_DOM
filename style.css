@@ -16,7 +16,7 @@ body {
     background-color: lightpink;
     color: rgb(209, 67, 91);
     border-radius: 15px;
-
+    box-shadow: 0px 0px 20px rgb(184, 75, 93);
 }
 .container h1 {
     font-size: 2.5rem;
